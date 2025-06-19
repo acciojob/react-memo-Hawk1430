@@ -41,8 +41,7 @@ const App = () => {
                         <ReactMemo key={index} todo={task}/>
                     ))}
                 </ul>
-                <button onClick={addNewToDo}>New todo</button>
-            </div>
+                <button data-testid="add-todo" onClick={addNewToDo}>Add Todo</button>
 
             <div>
                 <h2>Counter: {counter}</h2>
